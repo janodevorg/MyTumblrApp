@@ -1,0 +1,168 @@
+name: MyTumblrApp
+options:
+  usesTabs: false
+  indentWidth: 4
+  tabWidth: 4
+  createIntermediateGroups: true
+  deploymentTarget:
+    iOS: 15.4
+
+settings:
+    CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED: YES
+    DEVELOPMENT_TEAM: PPSF6CNP8Q
+
+packages:
+  
+  APIClient:
+    url: git@github.com:janodevorg/APIClient.git
+    branch: main
+
+  # APIClient:
+  #   path: ../APIClient
+
+  AutoLayout:
+    url: git@github.com:janodevorg/AutoLayout.git
+    branch: main
+    
+  CodableHelpers:
+    url: git@github.com:janodevorg/CodableHelpers.git
+    branch: main
+  
+  Coordinator:
+    url: git@github.com:janodevorg/Coordinator.git
+    branch: main
+
+  # CoreDataStack:
+  #   path: ../CoreDataStack
+    
+  CoreDataStack:
+    url: git@github.com:janodevorg/CoreDataStack.git
+    branch: main
+
+  Dependency:
+    url: git@github.com:janodevorg/Dependency.git
+    branch: main
+
+  Keychain:
+    url: git@github.com:janodevorg/Keychain.git
+    branch: main
+
+  # Keychain:
+  #   path: ../Keychain
+        
+  Kit:
+    url: git@github.com:janodevorg/Kit.git
+    branch: main
+
+  MyTumblr:
+    url: git@github.com:janodevorg/MyTumblr.git
+    branch: main
+
+  # MyTumblr:
+  #   path: ../MyTumblr
+
+  OAuth2:
+    url: git@github.com:janodevorg/OAuth2.git
+    branch: main
+
+  Report:
+    url: git@github.com:janodevorg/Report.git
+    branch: main
+
+  TumblrNPF:
+    url: git@github.com:janodevorg/TumblrNPF.git
+    branch: main
+    
+  # TumblrNPF:
+  #   path: ../TumblrNPF
+    
+  TumblrNPFPersistence:
+    url: git@github.com:janodevorg/TumblrNPFPersistence.git
+    branch: main
+
+  # TumblrNPFPersistence:
+  #   path: ../TumblrNPFPersistence
+
+targets:
+
+  MyTumblrApp:
+    configs:
+      Debug:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon-Debug
+        PRODUCT_BUNDLE_IDENTIFIER: dev.jano.tumblr.debug
+      Release:
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        PRODUCT_BUNDLE_IDENTIFIER: dev.jano.tumblr
+    dependencies:
+      - package: APIClient
+        embed: true
+      - package: AutoLayout
+        embed: true
+      - package: CodableHelpers
+        embed: true
+      - package: Coordinator
+        embed: true
+      - package: CoreDataStack
+        embed: true
+      - package: Dependency
+        embed: true
+      - package: Keychain
+        embed: true
+      - package: Kit
+        embed: true
+      - package: MyTumblr
+        embed: true
+      - package: OAuth2
+        embed: true
+      - package: Report
+        embed: true
+      - package: TumblrNPF
+        embed: true
+      - package: TumblrNPFPersistence
+        embed: true
+    entitlements:
+      path: sources/main/MyTumblrApp.entitlements
+      properties:
+        keychain-access-groups: ["dev.jano.tumblr"]
+    platform: iOS
+    preBuildScripts:
+      - name: Swiftlint
+        script: |
+          echo "Running swiftlint"
+          cd ${PROJECT_DIR}
+          swiftlint
+    platform: iOS
+    settings:
+      CODE_SIGN_ENTITLEMENTS: sources/main/MyTumblrApp.entitlements
+      CODE_SIGN_IDENTITY: "Apple Development"
+      CODE_SIGN_STYLE: Automatic
+      CURRENT_PROJECT_VERSION: 1
+      INFOPLIST_FILE: targets/main/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: 15.4
+      MARKETING_VERSION: 1.0.0
+      PRODUCT_NAME: MyTumblrApp
+      PRODUCT_BUNDLE_IDENTIFIER: dev.jano.tumblr
+    scheme:
+      testTargets:
+        - MyTumblrAppTests
+    sources:
+      - sources/main
+      - targets/main/Info.plist
+    type: application
+
+  MyTumblrAppTests:
+    dependencies:
+      - target: MyTumblrApp
+      - package: Coordinator
+      - package: AutoLayout
+      - package: OAuth2
+    platform: iOS
+    settings:
+      INFOPLIST_FILE: targets/tests/Info.plist
+      IPHONEOS_DEPLOYMENT_TARGET: 15.4
+      PRODUCT_BUNDLE_IDENTIFIER: dev.jano.tumblr.tests
+      TEST_HOST: $(BUILT_PRODUCTS_DIR)/MyTumblrApp.app/MyTumblrApp
+    sources:
+      - sources/tests
+      - targets/tests/Info.plist
+    type: bundle.unit-test

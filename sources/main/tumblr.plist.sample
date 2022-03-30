@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    
+	<key>api</key>
+	<string>https://api.tumblr.com</string>
+    
+	<key>authorizationRequestURL</key>
+	<string>https://www.tumblr.com/oauth2/authorize</string>
+    
+	<key>authorizationCodeGrantRequestURL</key>
+	<string>https://api.tumblr.com/v2/oauth2/token</string>
+    
+    <!-- REGISTER A TUMBLR APPLICATION TO SET THE KEYS BELOW. THE README.md FILE EXPLAINS HOW. -->
+    
+	<key>callback</key>
+	<string>devjanotumblr://jano.dev/callback</string>
+    
+	<key>key</key>
+	<string></string>
+    
+	<key>secret</key>
+	<string></string>
+    
+</dict>
+</plist>
