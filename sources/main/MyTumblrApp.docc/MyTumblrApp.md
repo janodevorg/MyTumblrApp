@@ -2,6 +2,8 @@
 
 A sample Tumblr client that authenticates with OAuth2.
 
+## Overview
+
 This application
 - provides a client configuration,
 - initializes dependencies,
@@ -11,11 +13,6 @@ Note that to start the application first you need to register a sample App with 
 _Register_ article below.
 
 ## Topics
-
-### Articles
-
-- <doc:Class-diagrams>
-- <doc:Register>
 
 ### Group
 

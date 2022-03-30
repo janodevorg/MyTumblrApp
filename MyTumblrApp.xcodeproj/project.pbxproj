@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		32C47CE40D229AD61C8D9C27 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 1E023E6B51FDA51E3D218876 /* APIClient */; };
 		3385CE7446E4C3360423DE59 /* CodableHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 97B4978BF9E14CCF9817E409 /* CodableHelpers */; };
 		34F54D17C0624EF8E91C227D /* Coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB7870EDAC8B8D207FB4BA9 /* Coordinator */; };
+		3AFDA02D27F50D4C00A094E4 /* MyTumblrApp.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */; };
 		3DA1F059250350A02B8996DA /* Coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = BC70F16A271CD18464752B9C /* Coordinator */; };
 		4461497CEE9C06FCC706831B /* Keychain in Frameworks */ = {isa = PBXBuildFile; productRef = 251DA2E1F3597352B877BAE2 /* Keychain */; };
 		471CBE9DF4DE23A075CF3AE0 /* APIClient in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 1E023E6B51FDA51E3D218876 /* APIClient */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -86,15 +87,15 @@
 		04A67A283FA743C6A2472074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D5264FEF0D8FA5CAE2E4156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2DBD8C91F4AE621E13F5768C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTumblrApp.docc; sourceTree = "<group>"; };
 		3DB363F677BCD8CD41DA14B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4D6B89302F457CFB4E652F72 /* MyTumblrApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyTumblrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5674AA0E5AD49079614E799B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6339321B772A7F5B1AE9821C /* MyTumblrAppTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MyTumblrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97973DD5491AD2E1981E2DCA /* EntitlementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementTests.swift; sourceTree = "<group>"; };
 		A9813ABDF04CC43F266EB66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BB24ECFEE5DEAE0D2F6B76EA /* MyTumblrApp.docc */ = {isa = PBXFileReference; path = MyTumblrApp.docc; sourceTree = "<group>"; };
 		E5852E4ACFD59C4AE6D6FC0E /* MyTumblrApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTumblrApp.entitlements; sourceTree = "<group>"; };
-		EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */ = {isa = PBXFileReference; path = tumblr.plist.sample; sourceTree = "<group>"; };
+		EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tumblr.plist.sample; sourceTree = "<group>"; };
 		F10A022A8929EE4694A9F172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEF5D0FE5A74CCE23A815C7C /* tumblr.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = tumblr.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -140,11 +141,11 @@
 				A9813ABDF04CC43F266EB66F /* Assets.xcassets */,
 				D755DFD9EA292708D0E0B907 /* LaunchScreen.storyboard */,
 				2DBD8C91F4AE621E13F5768C /* main.swift */,
-				BB24ECFEE5DEAE0D2F6B76EA /* MyTumblrApp.docc */,
 				E5852E4ACFD59C4AE6D6FC0E /* MyTumblrApp.entitlements */,
 				F10A022A8929EE4694A9F172 /* SceneDelegate.swift */,
 				FEF5D0FE5A74CCE23A815C7C /* tumblr.plist */,
 				EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */,
+				3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -369,6 +370,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AFDA02D27F50D4C00A094E4 /* MyTumblrApp.docc in Sources */,
 				325DB73633561291A0A7135B /* AppDelegate.swift in Sources */,
 				04E726EFE5525213886B595B /* SceneDelegate.swift in Sources */,
 				BFFF4E540DE10508C749F7ED /* main.swift in Sources */,
