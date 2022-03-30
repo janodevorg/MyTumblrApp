@@ -123,7 +123,7 @@ targets:
     entitlements:
       path: sources/main/MyTumblrApp.entitlements
       properties:
-        keychain-access-groups: ["dev.jano.tumblr"]
+        keychain-access-groups: ["PPSF6CNP8Q.dev.jano.tumblr"]
     platform: iOS
     preBuildScripts:
       - name: Swiftlint

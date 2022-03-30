@@ -7,8 +7,6 @@ This application
 - initializes dependencies,
 - delegates to the login or home screens in the MyTumblr package.
 
-## Overview
-
 Note that to start the application first you need to register a sample App with Tumblr. See the 
 _Register_ article below.
 
