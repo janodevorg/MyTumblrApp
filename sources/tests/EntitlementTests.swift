@@ -5,7 +5,7 @@ final class EntitlementTests: XCTestCase
 {
     private func createStore() throws -> OAuth2Store {
 
-        OAuth2Store(account: "Twitter", accessGroup: "dev.jano.mytumblr")
+        OAuth2Store(account: "Twitter", accessGroup: "PPSF6CNP8Q.dev.jano.tumblr")
     }
 
     override func tearDown() {
