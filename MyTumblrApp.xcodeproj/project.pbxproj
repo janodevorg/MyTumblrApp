@@ -3,43 +3,44 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		04E726EFE5525213886B595B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A022A8929EE4694A9F172 /* SceneDelegate.swift */; };
-		0C93958B8A52F622FD0702CE /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = FCA0D2C711DE2AF38A9F644D /* OAuth2 */; };
-		18FFD38101CCCBA6445B6DF6 /* Kit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 193C9FEDD38FD125F9E8ECEE /* Kit */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0C93958B8A52F622FD0702CE /* MyTumblr in Frameworks */ = {isa = PBXBuildFile; productRef = EC7CB87F8095E6A576A6496B /* MyTumblr */; };
+		18FFD38101CCCBA6445B6DF6 /* Keychain in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 251DA2E1F3597352B877BAE2 /* Keychain */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		1937801A4AC4F175783B3200 /* CoreDataStack in Frameworks */ = {isa = PBXBuildFile; productRef = 7D469863A840478123839E3B /* CoreDataStack */; };
 		325DB73633561291A0A7135B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5674AA0E5AD49079614E799B /* AppDelegate.swift */; };
 		32C47CE40D229AD61C8D9C27 /* APIClient in Frameworks */ = {isa = PBXBuildFile; productRef = 1E023E6B51FDA51E3D218876 /* APIClient */; };
 		3385CE7446E4C3360423DE59 /* CodableHelpers in Frameworks */ = {isa = PBXBuildFile; productRef = 97B4978BF9E14CCF9817E409 /* CodableHelpers */; };
 		34F54D17C0624EF8E91C227D /* Coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = 1DB7870EDAC8B8D207FB4BA9 /* Coordinator */; };
-		3AFDA02D27F50D4C00A094E4 /* MyTumblrApp.docc in Sources */ = {isa = PBXBuildFile; fileRef = 3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */; };
 		3DA1F059250350A02B8996DA /* Coordinator in Frameworks */ = {isa = PBXBuildFile; productRef = BC70F16A271CD18464752B9C /* Coordinator */; };
-		4461497CEE9C06FCC706831B /* Keychain in Frameworks */ = {isa = PBXBuildFile; productRef = 251DA2E1F3597352B877BAE2 /* Keychain */; };
+		4461497CEE9C06FCC706831B /* ImageCache in Frameworks */ = {isa = PBXBuildFile; productRef = 02684C966567DC454FC077B1 /* ImageCache */; };
 		471CBE9DF4DE23A075CF3AE0 /* APIClient in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 1E023E6B51FDA51E3D218876 /* APIClient */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		485A12626BE1DC3B0F4220A7 /* Report in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7D0C6844FA5F9A07C5559836 /* Report */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		485A12626BE1DC3B0F4220A7 /* OAuth2 in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FCA0D2C711DE2AF38A9F644D /* OAuth2 */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		51BEB784B6616CBE5814B6CD /* AutoLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 557B019DE42039C668FC3C20 /* AutoLayout */; };
-		5A00A27F980FB6B245B734B1 /* Keychain in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 251DA2E1F3597352B877BAE2 /* Keychain */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		5AEDC3C8CB5531F1D0B7FA2C /* MyTumblr in Frameworks */ = {isa = PBXBuildFile; productRef = EC7CB87F8095E6A576A6496B /* MyTumblr */; };
-		5E3142E208E5AF3BAAEB35C0 /* Report in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0C6844FA5F9A07C5559836 /* Report */; };
-		5EBFC7681A1751EB52215188 /* TumblrNPF in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9E8A798A3F89967D070B7FF6 /* TumblrNPF */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		72504F17C3120C77A3E17957 /* MyTumblr in Embed Frameworks */ = {isa = PBXBuildFile; productRef = EC7CB87F8095E6A576A6496B /* MyTumblr */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		7692A22B9803F7A29F828333 /* TumblrNPFPersistence in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7C2B8174000F2D4BC26A34E3 /* TumblrNPFPersistence */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		77DAB866901D85318D0492C1 /* Kit in Frameworks */ = {isa = PBXBuildFile; productRef = 193C9FEDD38FD125F9E8ECEE /* Kit */; };
+		5A00A27F980FB6B245B734B1 /* ImageCache in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 02684C966567DC454FC077B1 /* ImageCache */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5AEDC3C8CB5531F1D0B7FA2C /* Kit in Frameworks */ = {isa = PBXBuildFile; productRef = 193C9FEDD38FD125F9E8ECEE /* Kit */; };
+		5E3142E208E5AF3BAAEB35C0 /* OAuth2 in Frameworks */ = {isa = PBXBuildFile; productRef = FCA0D2C711DE2AF38A9F644D /* OAuth2 */; };
+		5EBFC7681A1751EB52215188 /* Report in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7D0C6844FA5F9A07C5559836 /* Report */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		72504F17C3120C77A3E17957 /* Kit in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 193C9FEDD38FD125F9E8ECEE /* Kit */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7692A22B9803F7A29F828333 /* TumblrNPF in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 9E8A798A3F89967D070B7FF6 /* TumblrNPF */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		77DAB866901D85318D0492C1 /* Keychain in Frameworks */ = {isa = PBXBuildFile; productRef = 251DA2E1F3597352B877BAE2 /* Keychain */; };
 		874990C6CAD49E219E535DE8 /* Dependency in Frameworks */ = {isa = PBXBuildFile; productRef = B79DC8207C008A9A5A47E485 /* Dependency */; };
 		91D8C5A3CF807D4D77407E0C /* CodableHelpers in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 97B4978BF9E14CCF9817E409 /* CodableHelpers */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		957B87803E2CBDE2523FFE54 /* AutoLayout in Frameworks */ = {isa = PBXBuildFile; productRef = 0315FD64D95EF9CBF84E6A5A /* AutoLayout */; };
-		A11297F25ACCA8A1EC9A4CBF /* TumblrNPF in Frameworks */ = {isa = PBXBuildFile; productRef = 9E8A798A3F89967D070B7FF6 /* TumblrNPF */; };
+		97A3865EF685193FDB9F5A98 /* TumblrNPFPersistence in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7C2B8174000F2D4BC26A34E3 /* TumblrNPFPersistence */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A11297F25ACCA8A1EC9A4CBF /* Report in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0C6844FA5F9A07C5559836 /* Report */; };
 		A3B235A2D15F9C028E79CB21 /* tumblr.plist.sample in Resources */ = {isa = PBXBuildFile; fileRef = EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */; };
 		B6AF92CB083D31272FED5451 /* Dependency in Embed Frameworks */ = {isa = PBXBuildFile; productRef = B79DC8207C008A9A5A47E485 /* Dependency */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B99C867A0CEAC8A8BD28FD06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D755DFD9EA292708D0E0B907 /* LaunchScreen.storyboard */; };
 		BB9D8B6EE96CB444E82D2DB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9813ABDF04CC43F266EB66F /* Assets.xcassets */; };
 		BFFF4E540DE10508C749F7ED /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DBD8C91F4AE621E13F5768C /* main.swift */; };
-		C644E96074787776D9515F52 /* TumblrNPFPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 7C2B8174000F2D4BC26A34E3 /* TumblrNPFPersistence */; };
+		C644E96074787776D9515F52 /* TumblrNPF in Frameworks */ = {isa = PBXBuildFile; productRef = 9E8A798A3F89967D070B7FF6 /* TumblrNPF */; };
 		C95643220C23891539A8DA5B /* Coordinator in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 1DB7870EDAC8B8D207FB4BA9 /* Coordinator */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		DCCED4C201E1337B614649DA /* OAuth2 in Embed Frameworks */ = {isa = PBXBuildFile; productRef = FCA0D2C711DE2AF38A9F644D /* OAuth2 */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CDEDD06A33DF90367EFACAAB /* TumblrNPFPersistence in Frameworks */ = {isa = PBXBuildFile; productRef = 7C2B8174000F2D4BC26A34E3 /* TumblrNPFPersistence */; };
+		DCCED4C201E1337B614649DA /* MyTumblr in Embed Frameworks */ = {isa = PBXBuildFile; productRef = EC7CB87F8095E6A576A6496B /* MyTumblr */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		DE9FD592B47400C77F4C439F /* AutoLayout in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 0315FD64D95EF9CBF84E6A5A /* AutoLayout */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E286C115C6F5F47F207BD9CE /* CoreDataStack in Embed Frameworks */ = {isa = PBXBuildFile; productRef = 7D469863A840478123839E3B /* CoreDataStack */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E7B3502D4F257F6FD9CEF6CA /* tumblr.plist in Resources */ = {isa = PBXBuildFile; fileRef = FEF5D0FE5A74CCE23A815C7C /* tumblr.plist */; };
@@ -70,13 +71,14 @@
 				C95643220C23891539A8DA5B /* Coordinator in Embed Frameworks */,
 				E286C115C6F5F47F207BD9CE /* CoreDataStack in Embed Frameworks */,
 				B6AF92CB083D31272FED5451 /* Dependency in Embed Frameworks */,
-				5A00A27F980FB6B245B734B1 /* Keychain in Embed Frameworks */,
-				18FFD38101CCCBA6445B6DF6 /* Kit in Embed Frameworks */,
-				72504F17C3120C77A3E17957 /* MyTumblr in Embed Frameworks */,
-				DCCED4C201E1337B614649DA /* OAuth2 in Embed Frameworks */,
-				485A12626BE1DC3B0F4220A7 /* Report in Embed Frameworks */,
-				5EBFC7681A1751EB52215188 /* TumblrNPF in Embed Frameworks */,
-				7692A22B9803F7A29F828333 /* TumblrNPFPersistence in Embed Frameworks */,
+				5A00A27F980FB6B245B734B1 /* ImageCache in Embed Frameworks */,
+				18FFD38101CCCBA6445B6DF6 /* Keychain in Embed Frameworks */,
+				72504F17C3120C77A3E17957 /* Kit in Embed Frameworks */,
+				DCCED4C201E1337B614649DA /* MyTumblr in Embed Frameworks */,
+				485A12626BE1DC3B0F4220A7 /* OAuth2 in Embed Frameworks */,
+				5EBFC7681A1751EB52215188 /* Report in Embed Frameworks */,
+				7692A22B9803F7A29F828333 /* TumblrNPF in Embed Frameworks */,
+				97A3865EF685193FDB9F5A98 /* TumblrNPFPersistence in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -87,15 +89,16 @@
 		04A67A283FA743C6A2472074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D5264FEF0D8FA5CAE2E4156 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2DBD8C91F4AE621E13F5768C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MyTumblrApp.docc; sourceTree = "<group>"; };
 		3DB363F677BCD8CD41DA14B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		4D6B89302F457CFB4E652F72 /* MyTumblrApp.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MyTumblrApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5674AA0E5AD49079614E799B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6339321B772A7F5B1AE9821C /* MyTumblrAppTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = MyTumblrAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		934D904928786A5488C35AFD /* MyTumblr */ = {isa = PBXFileReference; lastKnownFileType = folder; name = MyTumblr; path = ../MyTumblr; sourceTree = SOURCE_ROOT; };
 		97973DD5491AD2E1981E2DCA /* EntitlementTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntitlementTests.swift; sourceTree = "<group>"; };
 		A9813ABDF04CC43F266EB66F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BB24ECFEE5DEAE0D2F6B76EA /* MyTumblrApp.docc */ = {isa = PBXFileReference; path = MyTumblrApp.docc; sourceTree = "<group>"; };
 		E5852E4ACFD59C4AE6D6FC0E /* MyTumblrApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyTumblrApp.entitlements; sourceTree = "<group>"; };
-		EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = tumblr.plist.sample; sourceTree = "<group>"; };
+		EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */ = {isa = PBXFileReference; path = tumblr.plist.sample; sourceTree = "<group>"; };
 		F10A022A8929EE4694A9F172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FEF5D0FE5A74CCE23A815C7C /* tumblr.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = tumblr.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -121,13 +124,14 @@
 				34F54D17C0624EF8E91C227D /* Coordinator in Frameworks */,
 				1937801A4AC4F175783B3200 /* CoreDataStack in Frameworks */,
 				874990C6CAD49E219E535DE8 /* Dependency in Frameworks */,
-				4461497CEE9C06FCC706831B /* Keychain in Frameworks */,
-				77DAB866901D85318D0492C1 /* Kit in Frameworks */,
-				5AEDC3C8CB5531F1D0B7FA2C /* MyTumblr in Frameworks */,
-				0C93958B8A52F622FD0702CE /* OAuth2 in Frameworks */,
-				5E3142E208E5AF3BAAEB35C0 /* Report in Frameworks */,
-				A11297F25ACCA8A1EC9A4CBF /* TumblrNPF in Frameworks */,
-				C644E96074787776D9515F52 /* TumblrNPFPersistence in Frameworks */,
+				4461497CEE9C06FCC706831B /* ImageCache in Frameworks */,
+				77DAB866901D85318D0492C1 /* Keychain in Frameworks */,
+				5AEDC3C8CB5531F1D0B7FA2C /* Kit in Frameworks */,
+				0C93958B8A52F622FD0702CE /* MyTumblr in Frameworks */,
+				5E3142E208E5AF3BAAEB35C0 /* OAuth2 in Frameworks */,
+				A11297F25ACCA8A1EC9A4CBF /* Report in Frameworks */,
+				C644E96074787776D9515F52 /* TumblrNPF in Frameworks */,
+				CDEDD06A33DF90367EFACAAB /* TumblrNPFPersistence in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,11 +145,11 @@
 				A9813ABDF04CC43F266EB66F /* Assets.xcassets */,
 				D755DFD9EA292708D0E0B907 /* LaunchScreen.storyboard */,
 				2DBD8C91F4AE621E13F5768C /* main.swift */,
+				BB24ECFEE5DEAE0D2F6B76EA /* MyTumblrApp.docc */,
 				E5852E4ACFD59C4AE6D6FC0E /* MyTumblrApp.entitlements */,
 				F10A022A8929EE4694A9F172 /* SceneDelegate.swift */,
 				FEF5D0FE5A74CCE23A815C7C /* tumblr.plist */,
 				EAE4E7A82F5148E2D1C93E0B /* tumblr.plist.sample */,
-				3AFDA02C27F50D4C00A094E4 /* MyTumblrApp.docc */,
 			);
 			path = main;
 			sourceTree = "<group>";
@@ -157,6 +161,14 @@
 			);
 			path = tests;
 			sourceTree = "<group>";
+		};
+		335A3BEE8AD7522965519E76 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				934D904928786A5488C35AFD /* MyTumblr */,
+			);
+			name = Packages;
+			sourceTree = SOURCE_ROOT;
 		};
 		34522A335D038A153333165D /* sources */ = {
 			isa = PBXGroup;
@@ -195,6 +207,7 @@
 		DE0D7ABD89FD27C95FC481A6 = {
 			isa = PBXGroup;
 			children = (
+				335A3BEE8AD7522965519E76 /* Packages */,
 				34522A335D038A153333165D /* sources */,
 				E8DA4603A3A33F298EBFD883 /* targets */,
 				C57393A37C43A81618B5EC91 /* Products */,
@@ -238,6 +251,7 @@
 				1DB7870EDAC8B8D207FB4BA9 /* Coordinator */,
 				7D469863A840478123839E3B /* CoreDataStack */,
 				B79DC8207C008A9A5A47E485 /* Dependency */,
+				02684C966567DC454FC077B1 /* ImageCache */,
 				251DA2E1F3597352B877BAE2 /* Keychain */,
 				193C9FEDD38FD125F9E8ECEE /* Kit */,
 				EC7CB87F8095E6A576A6496B /* MyTumblr */,
@@ -305,9 +319,9 @@
 				2D7EE19C8BF0B97FA497CF50 /* XCRemoteSwiftPackageReference "Coordinator" */,
 				965A781EB41A3C7550494757 /* XCRemoteSwiftPackageReference "CoreDataStack" */,
 				6AD548EFB51AAA60696528CF /* XCRemoteSwiftPackageReference "Dependency" */,
+				039DADA2B27F49D9171E52A8 /* XCRemoteSwiftPackageReference "ImageCache" */,
 				5A8B692B4E544C6693695E11 /* XCRemoteSwiftPackageReference "Keychain" */,
 				4B0F0ED4C4DF716CC9820936 /* XCRemoteSwiftPackageReference "Kit" */,
-				870C9D38601EE9BFB1E614DA /* XCRemoteSwiftPackageReference "MyTumblr" */,
 				6D518C4B4FAB463405C552BE /* XCRemoteSwiftPackageReference "OAuth2" */,
 				86214D228466BB154B6C790D /* XCRemoteSwiftPackageReference "Report" */,
 				310E86542F8273BA3BA7E091 /* XCRemoteSwiftPackageReference "TumblrNPF" */,
@@ -370,7 +384,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AFDA02D27F50D4C00A094E4 /* MyTumblrApp.docc in Sources */,
 				325DB73633561291A0A7135B /* AppDelegate.swift in Sources */,
 				04E726EFE5525213886B595B /* SceneDelegate.swift in Sources */,
 				BFFF4E540DE10508C749F7ED /* main.swift in Sources */,
@@ -643,6 +656,14 @@
 				kind = branch;
 			};
 		};
+		039DADA2B27F49D9171E52A8 /* XCRemoteSwiftPackageReference "ImageCache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:janodevorg/ImageCache.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 		2D7EE19C8BF0B97FA497CF50 /* XCRemoteSwiftPackageReference "Coordinator" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:janodevorg/Coordinator.git";
@@ -715,14 +736,6 @@
 				kind = branch;
 			};
 		};
-		870C9D38601EE9BFB1E614DA /* XCRemoteSwiftPackageReference "MyTumblr" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "git@github.com:janodevorg/MyTumblr.git";
-			requirement = {
-				branch = main;
-				kind = branch;
-			};
-		};
 		965A781EB41A3C7550494757 /* XCRemoteSwiftPackageReference "CoreDataStack" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "git@github.com:janodevorg/CoreDataStack.git";
@@ -742,6 +755,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		02684C966567DC454FC077B1 /* ImageCache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 039DADA2B27F49D9171E52A8 /* XCRemoteSwiftPackageReference "ImageCache" */;
+			productName = ImageCache;
+		};
 		0315FD64D95EF9CBF84E6A5A /* AutoLayout */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 3CD04CE2674FC8B76379C901 /* XCRemoteSwiftPackageReference "AutoLayout" */;
@@ -814,7 +832,6 @@
 		};
 		EC7CB87F8095E6A576A6496B /* MyTumblr */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 870C9D38601EE9BFB1E614DA /* XCRemoteSwiftPackageReference "MyTumblr" */;
 			productName = MyTumblr;
 		};
 		FCA0D2C711DE2AF38A9F644D /* OAuth2 */ = {

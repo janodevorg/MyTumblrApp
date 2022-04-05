@@ -4,7 +4,7 @@
 <dict>
 	<key>keychain-access-groups</key>
 	<array>
-		<string>PPSF6CNP8Q.dev.jano.tumblr</string>
+		<string>$(AppIdentifierPrefix).dev.jano.tumblr</string>
 	</array>
 </dict>
 </plist>

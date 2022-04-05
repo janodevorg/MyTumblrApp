@@ -43,6 +43,10 @@ packages:
     url: git@github.com:janodevorg/Dependency.git
     branch: main
 
+  ImageCache:
+    url: git@github.com:janodevorg/ImageCache.git
+    branch: main
+    
   Keychain:
     url: git@github.com:janodevorg/Keychain.git
     branch: main
@@ -54,12 +58,12 @@ packages:
     url: git@github.com:janodevorg/Kit.git
     branch: main
 
-  MyTumblr:
-    url: git@github.com:janodevorg/MyTumblr.git
-    branch: main
-
   # MyTumblr:
-  #   path: ../MyTumblr
+  #   url: git@github.com:janodevorg/MyTumblr.git
+  #   branch: main
+
+  MyTumblr:
+    path: ../MyTumblr
 
   OAuth2:
     url: git@github.com:janodevorg/OAuth2.git
@@ -106,6 +110,8 @@ targets:
         embed: true
       - package: Dependency
         embed: true
+      - package: ImageCache
+        embed: true
       - package: Keychain
         embed: true
       - package: Kit
@@ -123,7 +129,7 @@ targets:
     entitlements:
       path: sources/main/MyTumblrApp.entitlements
       properties:
-        keychain-access-groups: ["PPSF6CNP8Q.dev.jano.tumblr"]
+        keychain-access-groups: ["$(AppIdentifierPrefix).dev.jano.tumblr"]
     platform: iOS
     preBuildScripts:
       - name: Swiftlint

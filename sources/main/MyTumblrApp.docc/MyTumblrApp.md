@@ -10,7 +10,7 @@ This application
 - delegates to the login or home screens in the MyTumblr package.
 
 Note that to start the application first you need to register a sample App with Tumblr. See the 
-_Register_ article below.
+_Register your client_ article below.
 
 ## Topics
 
